@@ -1,0 +1,98 @@
+//#include<iostream>
+//using namespace std;
+//int main() {
+//	int i = 0;
+//	do {
+//		i++;
+//		cout << i << " ";
+//		cout << i * i * i << endl;
+//		
+//	} while (i < 10);
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 0;
+//	do {
+//		i++;
+//		cout << i << " ";
+//		cout << i * i << endl;
+//
+//	} while (i < 20);
+//}
+
+
+
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	string password;
+//	int i = 0;
+//	do {
+//		i++;
+//		cin >> password;
+//	} while (password!="0000" &&i!=3);
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	string myname;
+//
+//	do {
+//		cout << "Enter my name" << endl;
+//		cin >> myname;
+//		if (myname == "no") { cout << "yes!"; };
+//	} while (myname != "Jekaterina", myname != "Vorona");
+//
+//	return 0;
+//} 
+
+//#include <iostream>
+//using namespace std;
+//bool isNumber(string s)
+//{
+//	for (int i = 0; i < s.length(); i++)
+//		if (isdigit(s[i]) == false)
+//			return false;
+//	return true;
+//}
+//
+//int main() {
+//	string myname;
+//
+//	do {
+//
+//		cout << "Enter my name" << endl;
+//		cin >> myname;
+//
+//		if (isNumber(myname)) { cout << "That is a number!"; };
+//	} while (myname != "Jekaterina");
+//	return 0;
+//}
+
+
+#include <iostream>
+using namespace std;
+bool isNumber(string s)
+{
+	for (int i = 0; i < s.length(); i++)
+		if (isdigit(s[i]) == false)
+			return false;
+	return true;
+}
+
+int main() {
+	string pas;
+
+	do {
+
+		cout << "Enter a password" << endl;
+		cin >> pas;
+
+		if (isdigit(pas)) { cout << "There are letters!"; };
+	} while (pas != "Jekaterina");
+	return 0;
+}
