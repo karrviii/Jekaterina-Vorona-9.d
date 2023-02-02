@@ -115,15 +115,15 @@ using namespace std;
 int main() {
 	int mal1, mal2, mal3;
 	cout << "Enter the first side" << endl;
-	cin >> mal1 ;
+	cin >> mal1;
 	cout << "Enter the second side" << endl;
-	cin >> mal2 ;
+	cin >> mal2;
 	cout << "Enter the third side" << endl;
-	cin >> mal3 ;
+	cin >> mal3;
 
-	if (mal1 == mal2 == mal3)
+	if (mal1 == mal2&&mal2 == mal3)
 		cout << "Trijsturis ir vienadmalu";
-	if (mal1 == mal2 or mal2 == mal3 or mal3==mal1)
+	else if (mal1 == mal2 || mal2 == mal3 || mal3 == mal1)
 		cout << "Trijsturis ir vienadsanu";
 
 }
