@@ -123,7 +123,7 @@ int main() {
 
 	if (mal1 == mal2 == mal3)
 		cout << "Trijsturis ir vienadmalu";
-	if (mal1 == mal2 or mal2 == mal3)
+	if (mal1 == mal2 or mal2 == mal3 or mal3==mal1)
 		cout << "Trijsturis ir vienadsanu";
 
 }
