@@ -1,0 +1,103 @@
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 0;
+//	do {
+//		i++;
+//		cout << i * 3 << endl;
+//
+//	} while (i != 125);
+//
+//	cout << endl;
+//
+//	int a = 0;
+//	do {
+//		a++;
+//		cout << a * a * a << endl;
+//
+//	} while (a != 20);
+//
+//	cout << endl;
+//
+//	int b = 1;
+//	do {
+//		b++; 
+//		cout << "1/"<<b << endl;
+//	} while (b != 1000);
+//
+//}
+//
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	cout << "              *" << endl;
+//	cout << "             ***" << endl;
+//	cout << "            *****" << endl;
+//	cout << "           *******" << endl;
+//	cout << "          *********" << endl;
+//	cout << "         ***********" << endl;
+//	cout << "        *************" << endl;
+//	cout << "            *****" << endl;
+//	cout << "           *******" << endl;
+//	cout << "          *********" << endl;
+//	cout << "         ***********" << endl;
+//	cout << "        *************" << endl;
+//	cout << "       ***************" << endl;
+//	cout << "      *****************" << endl;
+//	cout << "           *******" << endl;
+//	cout << "          *********" << endl;
+//	cout << "         ***********" << endl;
+//	cout << "        *************" << endl;
+//	cout << "       ***************" << endl;
+//	cout << "      *****************" << endl;
+//	cout << "     *******************" << endl;
+//	cout << "    *********************" << endl;
+//	cout << "   ***********************" << endl;
+//	cout << "  *************************" << endl;
+//	cout << " ***************************" << endl;
+//	cout << "*****************************" << endl;
+//	cout << "            *****" << endl;
+//	cout << "            *****" << endl;
+//	cout << "            *****" << endl;
+//	
+//}
+
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//
+//	string data;
+//	do {
+//		cout << "enter data" << endl;
+//
+//		cin >> data;
+//		cout << endl;
+//		cout << data << endl;
+//		cout << endl;
+//
+//	} while (data!= "stop");
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	string pass;
+//	int mag = 0;
+//	do { 
+//		mag++;
+//		cout << "enter password" << endl;
+//		cin >> pass ;
+//	} while (mag!=5 &&pass!="1234");
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int n = 1000;
+//	do {
+//		n--;
+//		cout << n - 5 << endl;
+//	} while (n != 5);
+//
+//}
