@@ -1,0 +1,30 @@
+-- create
+CREATE TABLE EMPLOYEE (
+  employee_id INTEGER NOT NULL,
+  first_name TEXT NOT NULL,
+  last_name TEXT NOT NULL,
+  customer_id INTEGER NOT NULL,
+  customer_name TEXT NOT NULL,
+  Town Text NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, '        Thomas(Neo)', 'Anderson', 1, '        Jewelry Store', 'London');
+INSERT INTO EMPLOYEE VALUES (1, '        Thomas(Neo)', 'Anderson', 2, '        Bakery', '        London');
+INSERT INTO EMPLOYEE VALUES (1, '        Thomas(Neo)', 'Anderson', 3, '        Cafe', '        London');
+INSERT INTO EMPLOYEE VALUES (1, '        Thomas(Neo)', 'Anderson', 4, '        Restaurant', 'London');
+INSERT INTO EMPLOYEE VALUES (2, '        Agent', '        Smith      ', 1, '        Jewelry Store', 'Cardiff');
+INSERT INTO EMPLOYEE VALUES (2, '        Agent', '        Smith      ', 2, '        Bakery       ', 'Cardiff');
+INSERT INTO EMPLOYEE VALUES (2, '        Agent', '        Smith      ', 3, '        Cafe         ', 'Cardiff');
+INSERT INTO EMPLOYEE VALUES (2, '        Agent', '        Smith      ', 4, '        Restaurant', 'Cardiff');
+
+Select* FROM EMPLOYEE;
+Select* FROM EMPLOYEE where customer_name= 'Bakery';
+Select* FROM EMPLOYEE Where customer_id=4 and last_name='Anderson';
+SELECT AVG(customer_id) FROM EMPLOYEE;
+SELECT MIN(customer_id) FROM EMPLOYEE;
+
+Select* FROM EMPLOYEE;
+Select* FROM EMPLOYEE Where Town= 'London' or first_name='Agent';
+
+
